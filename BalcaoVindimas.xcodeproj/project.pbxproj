@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B1000000000000000000A001 /* BalcaoVindimas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BalcaoVindimas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000A002 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B1000000000000000000A010 /* Exceptions for "BalcaoVindimas" folder in "BalcaoVindimas" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BalcaoVindimas.entitlements,
+				Info.plist,
+			);
+			target = B1000000000000000000A100 /* BalcaoVindimas */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B1000000000000000000A011 /* BalcaoVindimas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B1000000000000000000A010 /* Exceptions for "BalcaoVindimas" folder in "BalcaoVindimas" target */,
+			);
+			path = BalcaoVindimas;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1000000000000000000A020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1000000000000000000A030 = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000A032 /* Config */,
+				B1000000000000000000A011 /* BalcaoVindimas */,
+				B1000000000000000000A031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1000000000000000000A031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000A001 /* BalcaoVindimas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000A032 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000A002 /* Config.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1000000000000000000A100 /* BalcaoVindimas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1000000000000000000A210 /* Build configuration list for PBXNativeTarget "BalcaoVindimas" */;
+			buildPhases = (
+				B1000000000000000000A101 /* Sources */,
+				B1000000000000000000A020 /* Frameworks */,
+				B1000000000000000000A102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B1000000000000000000A011 /* BalcaoVindimas */,
+			);
+			name = BalcaoVindimas;
+			productName = BalcaoVindimas;
+			productReference = B1000000000000000000A001 /* BalcaoVindimas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1000000000000000000A200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B1000000000000000000A100 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = B1000000000000000000A201 /* Build configuration list for PBXProject "BalcaoVindimas" */;
+			developmentRegion = "pt-PT";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"pt-PT",
+				Base,
+			);
+			mainGroup = B1000000000000000000A030;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B1000000000000000000A031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1000000000000000000A100 /* BalcaoVindimas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1000000000000000000A102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1000000000000000000A101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1000000000000000000A300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1000000000000000000A002 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1000000000000000000A301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1000000000000000000A002 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B1000000000000000000A310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BalcaoVindimas/BalcaoVindimas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BalcaoVindimas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Balcão Vindimas";
+				INFOPLIST_KEY_CFBundleName = "Balcão Vindimas";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "A câmara é usada para ler os códigos QR dos livres-trânsito e das senhas de refeição.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Associação das Festas de Palmela";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pt.afpfv.balcao.macos;
+				PRODUCT_NAME = BalcaoVindimas;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B1000000000000000000A311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BalcaoVindimas/BalcaoVindimas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BalcaoVindimas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Balcão Vindimas";
+				INFOPLIST_KEY_CFBundleName = "Balcão Vindimas";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "A câmara é usada para ler os códigos QR dos livres-trânsito e das senhas de refeição.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Associação das Festas de Palmela";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pt.afpfv.balcao.macos;
+				PRODUCT_NAME = BalcaoVindimas;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1000000000000000000A201 /* Build configuration list for PBXProject "BalcaoVindimas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000000000000000000A300 /* Debug */,
+				B1000000000000000000A301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1000000000000000000A210 /* Build configuration list for PBXNativeTarget "BalcaoVindimas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000000000000000000A310 /* Debug */,
+				B1000000000000000000A311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1000000000000000000A200 /* Project object */;
+}

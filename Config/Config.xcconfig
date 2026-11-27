@@ -1,0 +1,8 @@
+// Configuração comum. Os valores do ambiente vêm de Secrets.xcconfig (não versionado);
+// ver Secrets.example.xcconfig. Em xcconfig "//" é comentário: escrever https:/$()/host.
+BALCAO_API_URL = http:/$()/localhost:3000/api/mobile
+BALCAO_CLIENT_KEY =
+SUPABASE_URL =
+SUPABASE_PUBLISHABLE_KEY =
+
+#include? "Secrets.xcconfig"
